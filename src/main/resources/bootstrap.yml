@@ -1,0 +1,17 @@
+ spring: 
+  application:
+   name: demo-svc
+#  config:
+#    #location: ${application_properties_path}
+#    location: src/main/resources/application.yml
+
+ server:
+  port: 8202
+  context-path: /demo-service 
+
+ info:
+  version: '@project.version@'
+  Description: '@project.description@'
+  Name: '@project.name@'
+  ArtifactId: '@project.artifactId@'
+  GroupId: '@project.groupId@'
